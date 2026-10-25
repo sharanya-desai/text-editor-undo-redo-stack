@@ -1,0 +1,18 @@
+# Text Editor with Undo/Redo Using Stack in C
+## Test Case Report
+
+| Test No. | Operation | Input | Expected Result |
+|---|---|---|---|
+| 1 | Insert text | Hello | Text inserted successfully |
+| 2 | Insert text | World | Document contains Hello World |
+| 3 | Display | Choice 5 | Displays current document |
+| 4 | Undo | Choice 3 | Reverts the last operation |
+| 5 | Redo | Choice 4 | Restores the undone operation |
+| 6 | Delete characters | 5 | Deletes five characters, subject to program logic |
+| 7 | Clear document | Choice 6 | Document becomes empty |
+
+**Project:** Text Editor with Undo/Redo – Stack  
+**Language:** C  
+**Testing method:** Menu-driven functional testing
+
+Note: Actual output should be checked against the expected result for each test case before marking it as passed.
